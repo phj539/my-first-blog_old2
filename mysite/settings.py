@@ -20,12 +20,20 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 SECRET_KEY = '6gk@0fji1_3=5z!gfl$u=sm(8ahjwsofb&ctbt=_tb-t(fmo(t'
+=======
+SECRET_KEY = 'm_odf0(q9z9x+4s!cu-2kpr91wb@=ktw-4t()b^c67*)j)6xry'
+>>>>>>> 6a018f7998af115da34b08cfb3ca5817130be73d
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '.pythonanywhere.com']
+=======
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+>>>>>>> 6a018f7998af115da34b08cfb3ca5817130be73d
 
 
 # Application definition
@@ -104,7 +112,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
+<<<<<<< HEAD
 LANGUAGE_CODE = 'ko'
+=======
+LANGUAGE_CODE = 'en-us'
+>>>>>>> 6a018f7998af115da34b08cfb3ca5817130be73d
 
 TIME_ZONE = 'Asia/Seoul'
 
@@ -119,5 +131,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+<<<<<<< HEAD
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', 'phj.pythonanywhere.com']
+=======
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+>>>>>>> 6a018f7998af115da34b08cfb3ca5817130be73d
